@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\npt_lesson04\\controllers\\nptcustomerscaffoldingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|solutionrelative:controllers\\nptcustomerscaffoldingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\npt_lesson04\\views\\nptcustomerscaffolding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|solutionrelative:views\\nptcustomerscaffolding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\npt_lesson04\\views\\nptcustomerscaffolding\\nptedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|solutionrelative:views\\nptcustomerscaffolding\\nptedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\npt_lesson04\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\npt_lesson04\\views\\nptcustomerscaffolding\\nptcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|solutionrelative:views\\nptcustomerscaffolding\\nptcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\npt_lesson04\\controllers\\nptcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69C42B6-9726-4415-BE7F-F9A276D0614B}|Npt_Lesson04.csproj|solutionrelative:controllers\\nptcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NptEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Views\\NptCustomerScaffolding\\NptEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NptCustomerScaffolding\\NptEdit.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Views\\NptCustomerScaffolding\\NptEdit.cshtml",
+              "RelativeToolTip": "Views\\NptCustomerScaffolding\\NptEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T03:40:10.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Views\\NptCustomerScaffolding\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\NptCustomerScaffolding\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Views\\NptCustomerScaffolding\\Index.cshtml",
+              "RelativeToolTip": "Views\\NptCustomerScaffolding\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T03:27:57.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NptCustomerScaffoldingController.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Controllers\\NptCustomerScaffoldingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NptCustomerScaffoldingController.cs",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Controllers\\NptCustomerScaffoldingController.cs",
+              "RelativeToolTip": "Controllers\\NptCustomerScaffoldingController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:23:15.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NptCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Views\\NptCustomerScaffolding\\NptCreate.cshtml",
+              "RelativeDocumentMoniker": "Views\\NptCustomerScaffolding\\NptCreate.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Views\\NptCustomerScaffolding\\NptCreate.cshtml",
+              "RelativeToolTip": "Views\\NptCustomerScaffolding\\NptCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T02:39:46.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T01:38:46.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NptCustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Controllers\\NptCustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NptCustomerController.cs",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\Npt_Lesson04\\Controllers\\NptCustomerController.cs",
+              "RelativeToolTip": "Controllers\\NptCustomerController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwDUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T01:22:32.283Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
