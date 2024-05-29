@@ -1,0 +1,51 @@
+﻿@model IEnumerable<NptLesson06.Models.NptSong>
+
+@{
+    ViewBag.Title = "Npt: Song List";
+}
+
+<h2>NptIndex</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NptCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NptTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NptAuthor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NptArtist)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NptYearRelease)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NptTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NptAuthor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NptArtist)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NptYearRelease)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>
