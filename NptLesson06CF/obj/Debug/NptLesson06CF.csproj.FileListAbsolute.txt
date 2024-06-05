@@ -1,0 +1,2 @@
+C:\Users\PHONG TAN\Desktop\Coding\Visual Studio\.Netframework\NptLesson06CF\obj\Debug\NptLesson06CF.csproj.AssemblyReference.cache
+C:\Users\PHONG TAN\Desktop\Coding\Visual Studio\.Netframework\NptLesson06CF\obj\Debug\NptLesson06CF.csproj.CoreCompileInputs.cache
