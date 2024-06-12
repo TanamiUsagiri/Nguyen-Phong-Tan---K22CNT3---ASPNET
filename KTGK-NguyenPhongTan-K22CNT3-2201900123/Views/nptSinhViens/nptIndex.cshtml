@@ -1,0 +1,69 @@
+﻿@model IEnumerable<KTGK_NguyenPhongTan_K22CNT3_2201900123.Models.nptSinhVien>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "nptCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nptHoSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nptTenSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nptNgaySinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nptPhai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nptPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nptEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nptKhoa.nptTenKH)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nptHoSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nptTenSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nptNgaySinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nptPhai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nptPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nptEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nptKhoa.nptTenKH)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "nptEdit", new { id=item.nptMaSV }) |
+            @Html.ActionLink("Details", "nptDetails", new { id=item.nptMaSV }) |
+            @Html.ActionLink("Delete", "nptDelete", new { id=item.nptMaSV })
+        </td>
+    </tr>
+}
+
+</table>

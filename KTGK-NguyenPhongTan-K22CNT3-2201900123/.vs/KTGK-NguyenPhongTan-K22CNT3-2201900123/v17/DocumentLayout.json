@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\ktgk-nguyenphongtan-k22cnt3-2201900123\\controllers\\nptsinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|solutionrelative:controllers\\nptsinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\ktgk-nguyenphongtan-k22cnt3-2201900123\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\ktgk-nguyenphongtan-k22cnt3-2201900123\\views\\nptsinhviens\\nptdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|solutionrelative:views\\nptsinhviens\\nptdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\ktgk-nguyenphongtan-k22cnt3-2201900123\\views\\nptsinhviens\\nptindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|solutionrelative:views\\nptsinhviens\\nptindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\ktgk-nguyenphongtan-k22cnt3-2201900123\\views\\nptsinhviens\\nptcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|solutionrelative:views\\nptsinhviens\\nptcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\.netframework\\ktgk-nguyenphongtan-k22cnt3-2201900123\\models\\model2210900132.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7F7C5750-A2A9-432A-9DBA-9450EC3BA61A}|KTGK-NguyenPhongTan-K22CNT3-2201900123.csproj|solutionrelative:models\\model2210900132.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "nptDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Views\\nptSinhViens\\nptDelete.cshtml",
+              "RelativeDocumentMoniker": "Views\\nptSinhViens\\nptDelete.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Views\\nptSinhViens\\nptDelete.cshtml",
+              "RelativeToolTip": "Views\\nptSinhViens\\nptDelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:31:02.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "nptIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Views\\nptSinhViens\\nptIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\nptSinhViens\\nptIndex.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Views\\nptSinhViens\\nptIndex.cshtml",
+              "RelativeToolTip": "Views\\nptSinhViens\\nptIndex.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAD0AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:29:49.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "nptCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Views\\nptSinhViens\\nptCreate.cshtml",
+              "RelativeDocumentMoniker": "Views\\nptSinhViens\\nptCreate.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Views\\nptSinhViens\\nptCreate.cshtml",
+              "RelativeToolTip": "Views\\nptSinhViens\\nptCreate.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAF0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:21:31.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:16:23.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "nptSinhViensController.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Controllers\\nptSinhViensController.cs",
+              "RelativeDocumentMoniker": "Controllers\\nptSinhViensController.cs",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Controllers\\nptSinhViensController.cs",
+              "RelativeToolTip": "Controllers\\nptSinhViensController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T04:14:19.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model2210900132.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Models\\Model2210900132.edmx",
+              "RelativeDocumentMoniker": "Models\\Model2210900132.edmx",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\.Netframework\\KTGK-NguyenPhongTan-K22CNT3-2201900123\\Models\\Model2210900132.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model2210900132.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-12T04:04:54.661Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

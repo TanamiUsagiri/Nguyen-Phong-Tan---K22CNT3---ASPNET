@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="nptKhoa">
+    <Key>
+      <PropertyRef Name="nptMaKH" />
+    </Key>
+    <Property Name="nptMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="nptTenKH" Type="nvarchar" MaxLength="50" />
+    <Property Name="nptTrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="nptSinhVien">
+    <Key>
+      <PropertyRef Name="nptMaSV" />
+    </Key>
+    <Property Name="nptMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="nptHoSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="nptTenSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="nptNgaySinh" Type="date" />
+    <Property Name="nptPhai" Type="bit" />
+    <Property Name="nptPhone" Type="nchar" MaxLength="10" />
+    <Property Name="nptEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="nptMaKH" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_nptSinhVien_nptKhoa">
+    <End Role="nptKhoa" Type="Self.nptKhoa" Multiplicity="0..1" />
+    <End Role="nptSinhVien" Type="Self.nptSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="nptKhoa">
+        <PropertyRef Name="nptMaKH" />
+      </Principal>
+      <Dependent Role="nptSinhVien">
+        <PropertyRef Name="nptMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="nptKhoa" EntityType="Self.nptKhoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="nptSinhVien" EntityType="Self.nptSinhVien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_nptSinhVien_nptKhoa" Association="Self.FK_nptSinhVien_nptKhoa">
+      <End Role="nptKhoa" EntitySet="nptKhoa" />
+      <End Role="nptSinhVien" EntitySet="nptSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

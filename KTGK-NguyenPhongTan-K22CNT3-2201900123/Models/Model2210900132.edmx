@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="nptKhoa">
+          <Key>
+            <PropertyRef Name="nptMaKH" />
+          </Key>
+          <Property Name="nptMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="nptTenKH" Type="nvarchar" MaxLength="50" />
+          <Property Name="nptTrangThai" Type="bit" />
+        </EntityType>
+        <EntityType Name="nptSinhVien">
+          <Key>
+            <PropertyRef Name="nptMaSV" />
+          </Key>
+          <Property Name="nptMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="nptHoSV" Type="nvarchar" MaxLength="50" />
+          <Property Name="nptTenSV" Type="nvarchar" MaxLength="50" />
+          <Property Name="nptNgaySinh" Type="date" />
+          <Property Name="nptPhai" Type="bit" />
+          <Property Name="nptPhone" Type="nchar" MaxLength="10" />
+          <Property Name="nptEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="nptMaKH" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <Association Name="FK_nptSinhVien_nptKhoa">
+          <End Role="nptKhoa" Type="Self.nptKhoa" Multiplicity="0..1" />
+          <End Role="nptSinhVien" Type="Self.nptSinhVien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nptKhoa">
+              <PropertyRef Name="nptMaKH" />
+            </Principal>
+            <Dependent Role="nptSinhVien">
+              <PropertyRef Name="nptMaKH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="nptKhoa" EntityType="Self.nptKhoa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="nptSinhVien" EntityType="Self.nptSinhVien" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_nptSinhVien_nptKhoa" Association="Self.FK_nptSinhVien_nptKhoa">
+            <End Role="nptKhoa" EntitySet="nptKhoa" />
+            <End Role="nptSinhVien" EntitySet="nptSinhVien" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="nptKhoa">
+          <Key>
+            <PropertyRef Name="nptMaKH" />
+          </Key>
+          <Property Name="nptMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="nptTenKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nptTrangThai" Type="Boolean" />
+          <NavigationProperty Name="nptSinhViens" Relationship="Self.FK_nptSinhVien_nptKhoa" FromRole="nptKhoa" ToRole="nptSinhVien" />
+        </EntityType>
+        <EntityType Name="nptSinhVien">
+          <Key>
+            <PropertyRef Name="nptMaSV" />
+          </Key>
+          <Property Name="nptMaSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="nptHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nptTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nptNgaySinh" Type="DateTime" Precision="0" />
+          <Property Name="nptPhai" Type="Boolean" />
+          <Property Name="nptPhone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="nptEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nptMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="nptKhoa" Relationship="Self.FK_nptSinhVien_nptKhoa" FromRole="nptSinhVien" ToRole="nptKhoa" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <Association Name="FK_nptSinhVien_nptKhoa">
+          <End Role="nptKhoa" Type="Self.nptKhoa" Multiplicity="0..1" />
+          <End Role="nptSinhVien" Type="Self.nptSinhVien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nptKhoa">
+              <PropertyRef Name="nptMaKH" />
+            </Principal>
+            <Dependent Role="nptSinhVien">
+              <PropertyRef Name="nptMaKH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Entities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="nptKhoas" EntityType="Self.nptKhoa" />
+          <EntitySet Name="nptSinhViens" EntityType="Self.nptSinhVien" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <AssociationSet Name="FK_nptSinhVien_nptKhoa" Association="Self.FK_nptSinhVien_nptKhoa">
+            <End Role="nptKhoa" EntitySet="nptKhoas" />
+            <End Role="nptSinhVien" EntitySet="nptSinhViens" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities1">
+          <EntitySetMapping Name="nptKhoas">
+            <EntityTypeMapping TypeName="Model.nptKhoa">
+              <MappingFragment StoreEntitySet="nptKhoa">
+                <ScalarProperty Name="nptMaKH" ColumnName="nptMaKH" />
+                <ScalarProperty Name="nptTenKH" ColumnName="nptTenKH" />
+                <ScalarProperty Name="nptTrangThai" ColumnName="nptTrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="nptSinhViens">
+            <EntityTypeMapping TypeName="Model.nptSinhVien">
+              <MappingFragment StoreEntitySet="nptSinhVien">
+                <ScalarProperty Name="nptMaSV" ColumnName="nptMaSV" />
+                <ScalarProperty Name="nptHoSV" ColumnName="nptHoSV" />
+                <ScalarProperty Name="nptTenSV" ColumnName="nptTenSV" />
+                <ScalarProperty Name="nptNgaySinh" ColumnName="nptNgaySinh" />
+                <ScalarProperty Name="nptPhai" ColumnName="nptPhai" />
+                <ScalarProperty Name="nptPhone" ColumnName="nptPhone" />
+                <ScalarProperty Name="nptEmail" ColumnName="nptEmail" />
+                <ScalarProperty Name="nptMaKH" ColumnName="nptMaKH" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="Model.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
