@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b8dba51f9a0b4194b545e1b5319cc156" Name="Diagram1">
+        <EntityTypeShape EntityType="NptK22CNT3Lesson09DbModel.nptKhoa" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NptK22CNT3Lesson09DbModel.nptSinhVien" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NptK22CNT3Lesson09DbModel.sysdiagram" Width="1.5" PointX="5.875" PointY="1.375" />
+        <AssociationConnector Association="NptK22CNT3Lesson09DbModel.FK_nptSinhVien_nptKhoa" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<NptLesson09.Models.nptKhoa>
+
+@{
+    ViewBag.Title = "NptIndex";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NptCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NptTenKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NptTrangthai)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NptTenKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NptTrangthai)
+        </td>
+        <td>
+            @Html.ActionLink("NptEdit", "NptEdit", new { id=item.NptmaKH }) |
+            @Html.ActionLink("NptDetails", "NptDetails", new { id=item.NptmaKH }) |
+            @Html.ActionLink("NptDelete", "NptDelete", new { id=item.NptmaKH })
+        </td>
+    </tr>
+}
+
+</table>
