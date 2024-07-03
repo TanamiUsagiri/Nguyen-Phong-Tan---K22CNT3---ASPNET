@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NptK22CNT3Lesson10Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NptAccount">
+    <Key>
+      <PropertyRef Name="NptId" />
+    </Key>
+    <Property Name="NptId" Type="int" Nullable="false" />
+    <Property Name="NptUserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="NptPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="NptFullName" Type="nvarchar" MaxLength="50" />
+    <Property Name="NptEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Nptphone" Type="nvarchar" MaxLength="50" />
+    <Property Name="NptActive" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="NptK22CNT3Lesson10ModelStoreContainer">
+    <EntitySet Name="NptAccount" EntityType="Self.NptAccount" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

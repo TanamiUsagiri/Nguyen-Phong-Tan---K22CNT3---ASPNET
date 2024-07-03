@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\aspnet\\nptk22cnt3lesson10\\views\\npthome\\nptindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|solutionrelative:views\\npthome\\nptindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\aspnet\\nptk22cnt3lesson10\\controllers\\npthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|solutionrelative:controllers\\npthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\aspnet\\nptk22cnt3lesson10\\controllers\\nptaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|solutionrelative:controllers\\nptaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\aspnet\\nptk22cnt3lesson10\\views\\nptaccounts\\nptlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|solutionrelative:views\\nptaccounts\\nptlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\aspnet\\nptk22cnt3lesson10\\views\\shared\\npt_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|solutionrelative:views\\shared\\npt_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\aspnet\\nptk22cnt3lesson10\\views\\nptaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|solutionrelative:views\\nptaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\aspnet\\nptk22cnt3lesson10\\models\\nptmodel2210900123.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|solutionrelative:models\\nptmodel2210900123.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\aspnet\\nptk22cnt3lesson10\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|c:\\users\\phong tan\\desktop\\coding\\visual studio\\aspnet\\nptk22cnt3lesson10\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927A3E45-C11B-4965-94F3-EDEBB1FC02BA}|NptK22CNT3Lesson10.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NptIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Views\\NptHome\\NptIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\NptHome\\NptIndex.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Views\\NptHome\\NptIndex.cshtml",
+              "RelativeToolTip": "Views\\NptHome\\NptIndex.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T04:00:58.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Views\\NptAccounts\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\NptAccounts\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Views\\NptAccounts\\Create.cshtml",
+              "RelativeToolTip": "Views\\NptAccounts\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T03:17:39.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NptLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Views\\NptAccounts\\NptLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\NptAccounts\\NptLogin.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Views\\NptAccounts\\NptLogin.cshtml",
+              "RelativeToolTip": "Views\\NptAccounts\\NptLogin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T03:16:51.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NptAccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Controllers\\NptAccountsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NptAccountsController.cs",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Controllers\\NptAccountsController.cs",
+              "RelativeToolTip": "Controllers\\NptAccountsController.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAiwIgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T03:15:12.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NptModel2210900123.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Models\\NptModel2210900123.edmx",
+              "RelativeDocumentMoniker": "Models\\NptModel2210900123.edmx",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Models\\NptModel2210900123.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\NptModel2210900123.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-03T03:11:37.803Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T03:06:53.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T03:05:08.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NptHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Controllers\\NptHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NptHomeController.cs",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Controllers\\NptHomeController.cs",
+              "RelativeToolTip": "Controllers\\NptHomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T03:03:05.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Npt_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Views\\Shared\\Npt_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Npt_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PHONG TAN\\Desktop\\Coding\\Visual Studio\\ASPNet\\NptK22CNT3Lesson10\\Views\\Shared\\Npt_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Npt_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T03:02:28.916Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NptK22CNT3Lesson10Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NptAccount">
+    <Key>
+      <PropertyRef Name="NptId" />
+    </Key>
+    <Property Name="NptId" Type="Int32" Nullable="false" />
+    <Property Name="NptUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NptPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NptFullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NptEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Nptphone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NptActive" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="NptK22CNT3Lesson10Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NptAccounts" EntityType="Self.NptAccount" />
+  </EntityContainer>
+</Schema>
