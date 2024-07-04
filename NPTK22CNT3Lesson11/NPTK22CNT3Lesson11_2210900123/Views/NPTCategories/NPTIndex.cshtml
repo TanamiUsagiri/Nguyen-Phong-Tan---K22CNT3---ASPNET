@@ -1,0 +1,56 @@
+﻿@model IEnumerable<NPTK22CNT3Lesson11_2210900037.Models.NPTCategory>
+
+@{
+    ViewBag.Title = "Danh Mục Sản Phẩm";
+    Layout = "~/Views/Shared/NPT2210900037_Layout.cshtml";
+}
+
+<h2>Danh Mục Sản Phẩm</h2>
+
+<p>
+    @* Html.ActionLink("Create New", "Create") *@
+</p>
+<a href="/NPTCategories/Create" class="btn btn-primary my-3">Thêm Mới</a> 
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NptId)s
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NptCateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NptStatus)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NptId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NptCateName)
+        </td>
+        <td>
+            @*Html.DisplayFor(modelItem => item.NptStatus)*@
+
+            @if (item.NptStatus == true)
+            {
+                <span style="color:green"> Hoạt Động </span>
+            }
+            else
+            {
+                <span style="color:red"> Không Hoạt Động </span>
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.NptId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.NptId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.NptId })
+        </td>
+    </tr>
+}
+
+</table>

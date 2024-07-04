@@ -1,0 +1,65 @@
+﻿@model NPTK22CNT3Lesson11_2210900037.Models.NPTProduct
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/NPT2210900037_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>NPTProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NptProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NptProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NptQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NptQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NptPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NptPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NptActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NptActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NPTCategory.NptCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NPTCategory.NptCateName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "NptIndex")
+        </div>
+    }
+</div>

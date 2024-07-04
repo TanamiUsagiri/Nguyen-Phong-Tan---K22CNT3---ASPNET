@@ -1,0 +1,59 @@
+﻿@model NPTK22CNT3Lesson11_2210900037.Models.NPTProduct
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/NPT2210900037_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NPTProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NptProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NptProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NptQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NptQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NptPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NptPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NptActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NptActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NPTCategory.NptCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NPTCategory.NptCateName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NptId2210900037 }) |
+    @Html.ActionLink("Back to List", "NptIndex")
+</p>
