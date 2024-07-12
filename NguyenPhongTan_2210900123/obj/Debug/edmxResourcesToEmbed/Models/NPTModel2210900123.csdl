@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NguyenPhongTan_2210900123Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Npt_Sach">
+    <Key>
+      <PropertyRef Name="Npt_Masach" />
+    </Key>
+    <Property Name="Npt_Masach" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Npt_Tensach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Npt_Sotrang" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Npt_NamXB" Type="DateTime" Precision="0" />
+    <Property Name="Npt_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Npt_Trangthai" Type="Boolean" />
+    <NavigationProperty Name="Npt_TacGia" Relationship="Self.FK_Npt_TacGia_Npt_Sach" FromRole="Npt_Sach" ToRole="Npt_TacGia" />
+  </EntityType>
+  <EntityType Name="Npt_TacGia">
+    <Key>
+      <PropertyRef Name="Npt_MaTG" />
+    </Key>
+    <Property Name="Npt_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Npt_TenTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Npt_Sach" Relationship="Self.FK_Npt_TacGia_Npt_Sach" FromRole="Npt_TacGia" ToRole="Npt_Sach" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Npt_TacGia_Npt_Sach">
+    <End Role="Npt_Sach" Type="Self.Npt_Sach" Multiplicity="1" />
+    <End Role="Npt_TacGia" Type="Self.Npt_TacGia" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Npt_Sach">
+        <PropertyRef Name="Npt_Masach" />
+      </Principal>
+      <Dependent Role="Npt_TacGia">
+        <PropertyRef Name="Npt_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NguyenPhongTan_2210900123Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Npt_Sach" EntityType="Self.Npt_Sach" />
+    <EntitySet Name="Npt_TacGia" EntityType="Self.Npt_TacGia" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_Npt_TacGia_Npt_Sach" Association="Self.FK_Npt_TacGia_Npt_Sach">
+      <End Role="Npt_Sach" EntitySet="Npt_Sach" />
+      <End Role="Npt_TacGia" EntitySet="Npt_TacGia" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

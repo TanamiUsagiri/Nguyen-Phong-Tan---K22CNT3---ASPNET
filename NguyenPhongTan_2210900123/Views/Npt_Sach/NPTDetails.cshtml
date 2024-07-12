@@ -1,0 +1,66 @@
+﻿@model NguyenPhongTan_2210900123.Models.Npt_Sach
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Npt_Sach</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Npt_Tensach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Npt_Tensach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Npt_Sotrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Npt_Sotrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Npt_NamXB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Npt_NamXB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Npt_MaTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Npt_MaTG)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Npt_Trangthai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Npt_Trangthai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Npt_TacGia.Npt_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Npt_TacGia.Npt_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "NPTEdit", new { id = Model.Npt_Masach }) |
+    @Html.ActionLink("Back to List", "NPTIndex")
+</p>

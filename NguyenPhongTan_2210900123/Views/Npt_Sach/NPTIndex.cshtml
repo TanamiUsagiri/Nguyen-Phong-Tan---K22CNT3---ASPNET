@@ -1,0 +1,63 @@
+﻿@model IEnumerable<NguyenPhongTan_2210900123.Models.Npt_Sach>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NPTCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Npt_Tensach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Npt_Sotrang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Npt_NamXB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Npt_MaTG)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Npt_Trangthai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Npt_TacGia.Npt_TenTG)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Npt_Tensach)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Npt_Sotrang)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Npt_NamXB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Npt_MaTG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Npt_Trangthai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Npt_TacGia.Npt_TenTG)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "NPTEdit", new { id=item.Npt_Masach }) |
+            @Html.ActionLink("Details", "NPTDetails", new { id=item.Npt_Masach }) |
+            @Html.ActionLink("Delete", "NPTDelete", new { id=item.Npt_Masach })
+        </td>
+    </tr>
+}
+
+</table>

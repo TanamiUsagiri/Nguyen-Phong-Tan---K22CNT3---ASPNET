@@ -1,0 +1,39 @@
+﻿@model IEnumerable<NguyenPhongTan_2210900123.Models.Npt_TacGia>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NPTCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Npt_TenTG)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Npt_Sach.Npt_Tensach)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Npt_TenTG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Npt_Sach.Npt_Tensach)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "NPTEdit", new { id=item.Npt_MaTG }) |
+            @Html.ActionLink("Details", "NPTDetails", new { id=item.Npt_MaTG }) |
+            @Html.ActionLink("Delete", "NPTDelete", new { id=item.Npt_MaTG })
+        </td>
+    </tr>
+}
+
+</table>
